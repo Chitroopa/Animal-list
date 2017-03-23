@@ -3,20 +3,17 @@ $(function() {
     var animalInput = $("input:radio[name=animal]:checked").val();
     if (animalInput === "bunny")
     {
-      $(".turtle").hide();
-      $(".tucan").hide();
+      $(".animal").hide();
       $(".bunny").show();
     }
     else if (animalInput === "tucan")
     {
-      $(".bunny").hide();
-      $(".turtle").hide();
+      $(".animal").hide();
       $(".tucan").show();
     }
     else if (animalInput === "turtle")
     {
-      $(".bunny").hide();
-      $(".tucan").hide();
+      $(".animal").hide();
       $(".turtle").show();
     }
 
